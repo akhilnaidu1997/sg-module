@@ -9,6 +9,7 @@ variable "environment" {
 }
 variable "desc" {
     type = string
+    default = "creating sg by module"
 }
 variable "sg_tags" {
     default = {}
