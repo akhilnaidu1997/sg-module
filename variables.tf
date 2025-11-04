@@ -7,9 +7,9 @@ variable "project" {
 variable "environment" {
     type = string
 }
+variable "desc" {
+    type = string
+}
 variable "sg_tags" {
     default = {}
-}
-variable "vpc_id" {
-    type = string
 }
